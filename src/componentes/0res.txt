@@ -1,0 +1,34 @@
+en pisos podria hacer alguna logica de si es piso 10 9 8, entonces fiscal tal persona.
+y que haya un <Cartelera /> que sea un componente que junta todo.
+
+
+personas 
+
+    - nombre
+    - cargo
+    - imagenes 
+    - area
+
+pisos 
+    - numero 
+    - personas.
+
+    no lo veo necesario el piso.
+
+slider
+    - lista de imagenes
+
+
+codigo repetido 
+
+
+--> piso
+
+( podriamos crear un componente Piso.)
+
+    - poner en el componente <Piso piso={nro} personas=[{...}] /> ahi ponemos el piso y todas las personas del piso. 
+<aside class="active"><span>10</span></aside>
+
+<aside><span>9</span></aside>
+
+<aside ><span>8</span></aside>

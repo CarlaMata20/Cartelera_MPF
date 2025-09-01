@@ -1,0 +1,4 @@
+lugar donde van todos los archivos que neceista la cartelera. 
+
+*.jpg, *.png, etc.
+-- pense tambien los css, pero bueno, puede ir en src tranquilamente.

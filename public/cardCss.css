@@ -1,0 +1,55 @@
+.persona-item {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 1rem 0;
+}
+
+.persona-imagen {
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+.imagen-circulo img {
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.persona-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.persona-titulos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.persona-cargo {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #222;
+}
+
+.persona-nombre {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  color: #007bff; /* Azul tipo institucional */
+  text-transform: uppercase;
+}
+
+.persona-areas {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.25rem 0 0 0;
+}
+
+.persona-areas li {
+  font-size: 0.9rem;
+  color: #555;
+}
