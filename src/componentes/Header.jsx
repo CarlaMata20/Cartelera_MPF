@@ -14,7 +14,7 @@ export default function Header({
 }) {
   return (
     <header 
-      className="header-container"
+      className="header-container ml-22 mr-22"
       style={{
         backgroundColor: backgroundColor,
         color: textColor

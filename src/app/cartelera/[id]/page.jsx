@@ -1,37 +1,17 @@
+// src/app/cartelera/page.jsx
 "use client";
+import { useParams } from 'next/navigation';
+import Cartelera from '@/componentes/Cartelera';
+import Cartelera2 from '@/componentes/Cartelera2';
 
-import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
-
-
-export default function CarteleraPage() {
+export default function Page() {
   const { id } = useParams();
-  const [html, setHtml] = useState('');
 
-  useEffect(() => {
-    const html = async () => {
-        const fet = await fetch(`/cartelera/api/${id}`);
-        const data = await fet.text();
-        setHtml(data);
-    }
-
-    html(); 
-
-    }, [id]);
-
-  return (
-    <div
-      dangerouslySetInnerHTML={{ __html: html}}
-    />
-  );
+  if (id == 0) {
+    return <Cartelera />;
+  } else if (id == 1) {
+    return <Cartelera2 />;
+  } else {
+    return <div>Cartelera no encontrada!</div>;
+  }
 }
-
-/*
-  useEffect(() => {
-    fetch(`/cartelera/api/${id}`)
-      .then((res) => res.text()) 
-      .then((data) => setHtml(data));
-  }, [id]);
-
-  cada vez que [id] cambie, elcodigo se vuelve a ejecutar.
-  */

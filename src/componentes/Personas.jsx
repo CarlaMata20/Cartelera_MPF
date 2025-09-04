@@ -5,7 +5,7 @@ import "../../public/cardCss.css"
 export default function Persona({persona}) 
 {
     return(
-        <li className="persona-item list-group-item border-0 d-flex align-items-center main"
+        <li className="persona-item list-group-item border-0 d-flex align-items-center main ml-22 mr-22"
         style={{ backgroundColor: persona.backgroundColor }}>
             <div className="picture-content persona-imagen">
                 <picture className="rounded-circle imagen-circulo">

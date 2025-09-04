@@ -24,3 +24,20 @@ export const pisos =
     },
 
 ]
+
+export const PB=[
+    {
+        titulo: "Secretaría de Acceso a la Justicia",
+        descripcion0: "OCRD - Oficina Receptora de Denuncias",
+        descripcion1: "OUD -  Unidad de Orientación y Denuncia" 
+    },
+     {
+        titulo: "Departamento Técnico Científico - CIJ ",
+        descripcion0: "Resguardo de Evidencia Digital"
+    },
+    {
+        titulo: "Unidad de Apoyo Administrativo - CIJ",
+        descripcion0: "Mesa de Entradas",
+        
+    },
+]

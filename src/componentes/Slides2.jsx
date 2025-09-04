@@ -1,6 +1,6 @@
 function Slides(){
     return (
-        <div id="carouselExampleDark" className="carousel carousel-dark slide ml-22 mr-22" data-bs-ride="carousel">
+        <div id="carouselExampleDark" className="carousel carousel-dark" data-bs-ride="carousel" >
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -9,24 +9,15 @@ function Slides(){
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="3000">
                     <img src="/Img-Slides/fondo-azul.jpg" className="d-block w-100" alt="Actualización de normativa" style={{height:"20em", width:"150px"}}/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5 style={{color: "white"}}>Actualización de normativa vigente</h5>
-                        <p style={{color: "white"}}>Revisión completa de los protocolos actuales</p>
-                    </div>
+                   
                 </div>
                 <div className="carousel-item" data-bs-interval="3000">
                     <img src="/Img-Slides/fondo-blanco.jpg" className="d-block w-100" alt="Renovación tecnológica" style={{height:"20em", width:"150px"}}/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>Renovación tecnológica</h5>
-                        <p>Modernización de sistemas internos</p>
-                    </div>
+                    
                 </div>
                 <div className="carousel-item" data-bs-interval="3000">
                     <img src="/Img-Slides/fondo-azul.jpg" className="d-block w-100" alt="Capacitación personal" style={{height:"20em", width:"150px"}}/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5 style={{color: "white"}}>Capacitación al personal</h5>
-                        <p style={{color: "white"}}>Programas de formación continua</p>
-                    </div>
+                    
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

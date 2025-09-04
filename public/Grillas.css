@@ -1,0 +1,47 @@
+.container{
+    background-color: #1a365d;
+    
+    max-width: 700% !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: -18px;
+    margin-left: -18px;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.tituloH1 {
+    color: white !important;
+}
+
+.Grilla{
+    background-color: #1a365d;
+    
+    border: 1px solid rgba(255, 255, 255, 0.205);
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* SOLUCIÓN: Selectores más específicos */
+
+/* 1. Para el card-body */
+.card-body.mb-2 {
+    background-color: #1a365d !important;
+    color: white !important;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* 2. Para el título - FORMA CORRECTA */
+.card-body.mb-2 .card-title.grilla-title {
+    color: azure !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* 3. Para las descripciones */
+.card-body.mb-2 .grilla-descripcion {
+    color: rgba(255, 255, 255, 0.8) !important;
+    margin-bottom: 10px;
+}
