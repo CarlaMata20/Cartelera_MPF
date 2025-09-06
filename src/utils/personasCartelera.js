@@ -41,3 +41,20 @@ export const PB=[
         
     },
 ]
+
+export const PB2=[
+    {
+        titulo: "Gabinete de Criminalística TUYÚ",
+        descripcion0: "Laboratorio de Toxicología y Química Forense",
+        descripcion1: "" 
+    },
+     {
+        titulo: "SUM",
+        descripcion0: "Vestuarios"
+    },
+    {
+        titulo: "Gabinete de Criminalística",
+        descripcion0: "Unidad de Apoyo Administrativo",
+        
+    },
+]
